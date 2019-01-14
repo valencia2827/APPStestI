@@ -1,0 +1,220 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      6333,        211]
+NotebookOptionsPosition[      5479,        176]
+NotebookOutlinePosition[      5814,        191]
+CellTagsIndexPosition[      5771,        188]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"<<", "APPStestI`"}]], "Input",
+ CellChangeTimes->{{3.756137907631645*^9, 3.756137909905167*^9}, {
+  3.756137979383387*^9, 3.756137989141143*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"MainFunction", "[", "10", "]"}]], "Input",
+ CellChangeTimes->{{3.756138021187669*^9, 3.7561380314496193`*^9}}],
+
+Cell[BoxData[
+ FormBox["101", TraditionalForm]], "Output",
+ CellChangeTimes->{3.756138033126813*^9, 3.756477942354463*^9, 
+  3.756478612373599*^9, 3.756479092228352*^9, 3.756479163413805*^9, 
+  3.756479214684429*^9, 3.756479377420238*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"fun", "[", "10", "]"}]], "Input",
+ CellChangeTimes->{{3.7561380370828657`*^9, 3.7561380417024307`*^9}}],
+
+Cell[BoxData[
+ FormBox["101", TraditionalForm]], "Output",
+ CellChangeTimes->{3.7561380425358152`*^9, 3.756477942364994*^9, 
+  3.75647861238844*^9, 3.756479092253448*^9, 3.756479163436989*^9, 
+  3.756479214704953*^9, 3.756479377446673*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"m", "=", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"i", "^", "2"}], "-", 
+     RowBox[{"j", "^", "3"}]}], ",", 
+    RowBox[{"{", 
+     RowBox[{"i", ",", "5"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"j", ",", "6"}], "}"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.7564780548233547`*^9, 3.756478054823833*^9}}],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {"0", 
+      RowBox[{"-", "7"}], 
+      RowBox[{"-", "26"}], 
+      RowBox[{"-", "63"}], 
+      RowBox[{"-", "124"}], 
+      RowBox[{"-", "215"}]},
+     {"3", 
+      RowBox[{"-", "4"}], 
+      RowBox[{"-", "23"}], 
+      RowBox[{"-", "60"}], 
+      RowBox[{"-", "121"}], 
+      RowBox[{"-", "212"}]},
+     {"8", "1", 
+      RowBox[{"-", "18"}], 
+      RowBox[{"-", "55"}], 
+      RowBox[{"-", "116"}], 
+      RowBox[{"-", "207"}]},
+     {"15", "8", 
+      RowBox[{"-", "11"}], 
+      RowBox[{"-", "48"}], 
+      RowBox[{"-", "109"}], 
+      RowBox[{"-", "200"}]},
+     {"24", "17", 
+      RowBox[{"-", "2"}], 
+      RowBox[{"-", "39"}], 
+      RowBox[{"-", "100"}], 
+      RowBox[{"-", "191"}]}
+    },
+    GridBoxAlignment->{
+     "Columns" -> {{Center}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+      "RowsIndexed" -> {}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.7]}, 
+        Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}, "RowsIndexed" -> {}}], "\[NoBreak]", ")"}], 
+  TraditionalForm]], "Output",
+ CellChangeTimes->{3.7564780572544394`*^9, 3.75647861240935*^9, 
+  3.756479092277223*^9, 3.756479163466435*^9, 3.7564792147267027`*^9, 
+  3.756479377471178*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"(*", " ", 
+  RowBox[{"CreateDirectoryPath", "[", 
+   RowBox[{"FileNameJoin", "[", 
+    RowBox[{"{", 
+     RowBox[{"$UserDocumentsDirectory", ",", "\"\<APPStestI-Work\>\""}], 
+     "}"}], "]"}], "]"}], " ", "*)"}]], "Input",
+ CellChangeTimes->{{3.7564781178893957`*^9, 3.7564781372999973`*^9}, {
+   3.756478257873303*^9, 3.7564782634289827`*^9}, 3.756478464462782*^9, {
+   3.75647898768394*^9, 3.756479007653549*^9}, {3.7564792778967237`*^9, 
+   3.7564793406331167`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{"CreateDirectoryPath", "[", 
+    RowBox[{"FileNameJoin", "[", 
+     RowBox[{"{", 
+      RowBox[{"\"\<APPStestI-Work\>\"", ",", "\"\<SUBappsA\>\""}], "}"}], 
+     "]"}], "]"}], "*)"}], "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.756479037282916*^9, 3.7564790770365953`*^9}, {
+  3.75647933431056*^9, 3.756479352263844*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"CreateDirectoryPath", "[", 
+   RowBox[{"FileNameJoin", "[", 
+    RowBox[{"{", 
+     RowBox[{
+     "$UserDocumentsDirectory", ",", "\"\<APPStestI-Work/SUBappsA\>\""}], 
+     "}"}], "]"}], "]"}], "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.756479327826188*^9, 3.7564793585879507`*^9}}],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"{", "\<\"/home/tomas/APPStestI-Work/SUBappsA\"\>", "}"}], 
+  TraditionalForm]], "Output",
+ CellChangeTimes->{3.756479377506703*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Export", "[", 
+  RowBox[{
+   RowBox[{"FileNameJoin", "[", 
+    RowBox[{"{", 
+     RowBox[{
+     "$UserDocumentsDirectory", ",", "\"\<APPStestI-Work/SUBappsA\>\"", ",", 
+      "\"\<Mtable.txt\>\""}], "}"}], "]"}], ",", "m"}], "]"}]], "Input",
+ CellChangeTimes->{{3.756478080454752*^9, 3.756478080455764*^9}, 
+   3.7564782152300653`*^9, 3.756479083041849*^9, {3.756479159691375*^9, 
+   3.756479161048423*^9}}],
+
+Cell[BoxData[
+ FormBox["\<\"/home/tomas/APPStestI-Work/SUBappsA/Mtable.txt\"\>", 
+  TraditionalForm]], "Output",
+ CellChangeTimes->{3.756478612437131*^9, 3.756479092446939*^9, 
+  3.756479163517758*^9, 3.7564792147965193`*^9, 3.756479377530147*^9}]
+}, Open  ]]
+},
+WindowSize->{860, 876},
+WindowMargins->{{Automatic, 341}, {-3, Automatic}},
+FrontEndVersion->"10.0 for Linux x86 (64-bit) (June 27, 2014)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 169, 3, 32, "Input"],
+Cell[CellGroupData[{
+Cell[752, 27, 134, 2, 32, "Input"],
+Cell[889, 31, 238, 4, 31, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1164, 40, 127, 2, 32, "Input"],
+Cell[1294, 44, 239, 4, 31, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1570, 53, 362, 11, 32, "Input"],
+Cell[1935, 66, 1382, 44, 107, "Output"]
+}, Open  ]],
+Cell[3332, 113, 494, 10, 55, "Input"],
+Cell[3829, 125, 391, 9, 55, "Input"],
+Cell[CellGroupData[{
+Cell[4245, 138, 331, 8, 77, "Input"],
+Cell[4579, 148, 166, 4, 33, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4782, 157, 431, 10, 55, "Input"],
+Cell[5216, 169, 247, 4, 88, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

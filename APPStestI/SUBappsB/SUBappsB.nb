@@ -1,0 +1,211 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      5648,        202]
+NotebookOptionsPosition[      4978,        173]
+NotebookOutlinePosition[      5312,        188]
+CellTagsIndexPosition[      5269,        185]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"<<", "APPStestI`"}]], "Input"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", 
+  RowBox[{"m", "=", 
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"i", "^", "2"}], "-", 
+      RowBox[{"j", "^", "3"}]}], ",", 
+     RowBox[{"{", 
+      RowBox[{"i", ",", "5"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"j", ",", "6"}], "}"}]}], "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.756140843249177*^9, 3.7561408440171947`*^9}}],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {"0", 
+      RowBox[{"-", "7"}], 
+      RowBox[{"-", "26"}], 
+      RowBox[{"-", "63"}], 
+      RowBox[{"-", "124"}], 
+      RowBox[{"-", "215"}]},
+     {"3", 
+      RowBox[{"-", "4"}], 
+      RowBox[{"-", "23"}], 
+      RowBox[{"-", "60"}], 
+      RowBox[{"-", "121"}], 
+      RowBox[{"-", "212"}]},
+     {"8", "1", 
+      RowBox[{"-", "18"}], 
+      RowBox[{"-", "55"}], 
+      RowBox[{"-", "116"}], 
+      RowBox[{"-", "207"}]},
+     {"15", "8", 
+      RowBox[{"-", "11"}], 
+      RowBox[{"-", "48"}], 
+      RowBox[{"-", "109"}], 
+      RowBox[{"-", "200"}]},
+     {"24", "17", 
+      RowBox[{"-", "2"}], 
+      RowBox[{"-", "39"}], 
+      RowBox[{"-", "100"}], 
+      RowBox[{"-", "191"}]}
+    },
+    GridBoxAlignment->{
+     "Columns" -> {{Center}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+      "RowsIndexed" -> {}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.7]}, 
+        Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}, "RowsIndexed" -> {}}], "\[NoBreak]", ")"}], 
+  TraditionalForm]], "Output",
+ CellChangeTimes->{3.756140844806926*^9, 3.756140939326367*^9, 
+  3.756479781960849*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", 
+  RowBox[{"YY", "=", 
+   RowBox[{"Grid", "[", "m", "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.7561408624731092`*^9, 3.756140868860168*^9}}],
+
+Cell[BoxData[
+ FormBox[
+  TagBox[GridBox[{
+     {"0", 
+      RowBox[{"-", "7"}], 
+      RowBox[{"-", "26"}], 
+      RowBox[{"-", "63"}], 
+      RowBox[{"-", "124"}], 
+      RowBox[{"-", "215"}]},
+     {"3", 
+      RowBox[{"-", "4"}], 
+      RowBox[{"-", "23"}], 
+      RowBox[{"-", "60"}], 
+      RowBox[{"-", "121"}], 
+      RowBox[{"-", "212"}]},
+     {"8", "1", 
+      RowBox[{"-", "18"}], 
+      RowBox[{"-", "55"}], 
+      RowBox[{"-", "116"}], 
+      RowBox[{"-", "207"}]},
+     {"15", "8", 
+      RowBox[{"-", "11"}], 
+      RowBox[{"-", "48"}], 
+      RowBox[{"-", "109"}], 
+      RowBox[{"-", "200"}]},
+     {"24", "17", 
+      RowBox[{"-", "2"}], 
+      RowBox[{"-", "39"}], 
+      RowBox[{"-", "100"}], 
+      RowBox[{"-", "191"}]}
+    },
+    AutoDelete->False,
+    GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+   "Grid"], TraditionalForm]], "Output",
+ CellChangeTimes->{3.75614087233523*^9, 3.756140939349868*^9, 
+  3.756479781982912*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CreateDirectoryPath", "[", 
+  RowBox[{"FileNameJoin", "[", 
+   RowBox[{"{", 
+    RowBox[{
+    "$UserDocumentsDirectory", ",", "\"\<APPStestI-workspace/SUBappsA\>\""}], 
+    "}"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.756140914097417*^9, 3.756140934419854*^9}, 
+   3.756479725694116*^9, {3.7564797566157*^9, 3.75647976157753*^9}}],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"{", "\<\"/home/tomas/APPStestI-workspace/SUBappsA\"\>", "}"}], 
+  TraditionalForm]], "Output",
+ CellChangeTimes->{3.756140939354443*^9, 3.756479782002022*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Export", "[", 
+  RowBox[{
+   RowBox[{"FileNameJoin", "[", 
+    RowBox[{"{", 
+     RowBox[{
+     "$UserDocumentsDirectory", ",", "\"\<APPStestI-workspace/SUBappsA\>\"", 
+      ",", "\"\<Mtable.txt\>\""}], "}"}], "]"}], ",", "YY"}], "]"}]], "Input",\
+
+ CellChangeTimes->{{3.756140682487461*^9, 3.756140701703039*^9}, {
+  3.756140743029399*^9, 3.756140749542864*^9}, {3.756140881316723*^9, 
+  3.7561408833531017`*^9}, {3.7564797653180933`*^9, 3.756479765576942*^9}}],
+
+Cell[BoxData[
+ FormBox["\<\"/home/tomas/APPStestI-workspace/SUBappsA/Mtable.txt\"\>", 
+  TraditionalForm]], "Output",
+ CellChangeTimes->{
+  3.7561407028430023`*^9, {3.756140752836258*^9, 3.75614077286965*^9}, 
+   3.756140808029127*^9, 3.756140939378736*^9, 3.756479782021978*^9}]
+}, Open  ]]
+},
+WindowSize->{808, 875},
+WindowMargins->{{66, Automatic}, {Automatic, 17}},
+FrontEndVersion->"10.0 for Linux x86 (64-bit) (June 27, 2014)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 54, 1, 32, "Input"],
+Cell[CellGroupData[{
+Cell[637, 25, 407, 12, 55, "Input"],
+Cell[1047, 39, 1310, 43, 107, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2394, 87, 186, 4, 55, "Input"],
+Cell[2583, 93, 978, 35, 107, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3598, 133, 362, 8, 55, "Input"],
+Cell[3963, 143, 193, 4, 33, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4193, 152, 487, 11, 77, "Input"],
+Cell[4683, 165, 279, 5, 88, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
